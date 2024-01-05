@@ -11,6 +11,7 @@ numexpr = "*"
 tiktoken = "*"
 chromadb = "*"
 pydantic = "*"
+bs4 = "*"
 
 [dev-packages]
 ipykernel = "*"
