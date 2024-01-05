@@ -8,6 +8,9 @@ openai = "*"
 langchain = "*"
 google-search-results = "*"
 numexpr = "*"
+tiktoken = "*"
+chromadb = "*"
+pydantic = "*"
 
 [dev-packages]
 ipykernel = "*"
