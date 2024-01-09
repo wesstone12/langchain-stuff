@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "langchain-stuff"
+version = "0.1.0"
+description = "bad code"
+authors = ["Wes Stone <wesstone@vt.edu>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai = "*"
+langchain = "*"
+google-search-results = "*"
+numexpr = "*"
+tiktoken = "*"
+chromadb = "*"
+pydantic = "*"
+bs4 = "*"
+pandas = "^2.1.4"
+faiss-cpu = "^1.7.4"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
